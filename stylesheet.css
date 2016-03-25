@@ -1,0 +1,78 @@
+body {
+  position: relative;
+  margin: 5px;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.box {
+	padding: 5px 0px;
+}
+
+p {
+	font-family: "Courier", Times, serif;
+	font-size: 16px;
+	color: black;
+	margin: 0px 0px;
+}
+
+img {
+	margin: 5px 0px;
+}
+
+div.header {
+	background-color: rgb(125,125,125);
+	font-family: 'Impact', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px grey, 0 3px grey;
+	text-transform: uppercase;
+	background-color: rgb(160,160,160);
+	color: #343434;
+	font-size: 38px;
+	text-align: center;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	font-size: 16px;
+	width: 250px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #efefef;
+  text-align: center;
+}
