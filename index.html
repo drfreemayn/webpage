@@ -1,35 +1,55 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <html>
-
-  <!-- Page header-->
+  <!-- Site header and styling -->
   <head>
-	<link type="text/css", rel="stylesheet", href="stylesheet.css">
+    <link rel="icon" href="guitar.ico" type="image/png">
+    <link type="text/css", rel="stylesheet", href="stylesheet.css">
+    <meta name="description" content="The main page of Fredrik Walterson's website.">
+    <meta name="keywords" content="Fredrik Walterson">
     <title>Fredrik Walterson | Home</title>
   </head> 
 
   <!-- Page body-->
   <body>
-  
-	<div class="header">Fredrik Walterson's homepage</div>
-	
-	<ul>
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="about.html">About me</a></li>
-		<li><a href="contact.html">Contact</a></li>	
-	</ul>
-	
-	<div class="box">
-	<p>Hi there! I'm glad that you've found my homepage. Enjoy your stay!</p>
-	
-	<!-- Picture link, knugen -->
-	<p>Here's a picture of my spirit animal, the knug!</p>
-	<a href="https://sv.wikipedia.org/wiki/Carl_XVI_Gustaf">
-	<img src="kungen.jpg" alt="Knugen" height="200" width="200" title="The glorious knug" /></a>
-	<p>Ohh! Ahh! Isn't he <strong>marvelous</strong>?
-	
-	<div class="footer">fredrik.walterson@gmail.com</div>
-	</div>
-	
+    <!-- Main header-->
+    <div class="header">Fredrik Walterson's homepage</div>
+    <ul class="boxheader">
+        <li><a class="boxheader active" href="index.html">Home</a></li>
+        <li><a class="boxheader" href="about.html">About me</a></li>
+        <li><a class="boxheader" href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Main content -->
+    <div class="centerbox">
+    <h1>Introduction</h1>
+    <p>Hi there! I'm glad that you've found my homepage. Enjoy your stay!</p>
+
+    <!-- Picture link, knugen -->
+    <p>Here's a picture of my spirit animal, the knug!</p>
+    <figure>
+        <a href="https://sv.wikipedia.org/wiki/Carl_XVI_Gustaf">
+        <img class="boxed" src="kungen.jpg" alt="Knugen" height="200" width="200" title="The glorious knug" />
+        </a>
+        <figcaption>Ohh! Ahh! Isn't he <strong>marvelous</strong>?</figcaption>
+    </figure>
+
+    <h1>Updates</h1>
+    <div class="table">
+        <ul style="margin: 0px;">
+            <li>2016-06-19: The first version of the site is now online!</li>
+        </ul>
+    </div>
+
+    </div>  <!-- Close centerbox -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <script language="Javascript">
+        document.write("This page was last modified on: " + document.lastModified);
+        </SCRIPT>
+    </div>
+
   </body>
   
 </html>
