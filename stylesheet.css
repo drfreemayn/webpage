@@ -1,12 +1,12 @@
 body {
     position: relative;
-    margin: 5px;
+    margin: 4px;
     padding-bottom: 6rem;
 }
 
 p {
     font-family: "Courier", Times, serif;
-    font-size: 16px;
+    font-size: 15px;
     color: black;
     margin: 0px 0px;
 }
@@ -33,7 +33,7 @@ li a.boxheader {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 15px;
     text-shadow: 2px 2px #000000;
     text-decoration: none;
 }
